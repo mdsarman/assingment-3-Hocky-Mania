@@ -6,19 +6,72 @@
     <!-- Tailwinf and daisiUi Add -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- google font - Manrope  -->
 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+         rel="stylesheet">
+ 
+     <!-- Font Awesome link  -->
+ 
+     <script src="https://kit.fontawesome.com/48d86ff5d9.js" crossorigin="anonymous"></script>
+ 
+     <style>
+         .font-manrope {
+             font-family: 'Manrope', sans-serif;
+         }
+     </style>
     <title>Hocky Mania</title>
 
 </head>
-<body>
-    <header class=>
-        
-    </header>
+<body class="font-manrope bg-white text-black">
+  <header>
+    <!-- navbar section  -->
+    <nav class="container mx-auto">
+        <div class="navbar ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm text-black dropdown-content mt-3 z-[1] p-2 shadow bg-slate-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">Hockey's Mania</a>
+            </div>
+            <div class="navbar-center text-black hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-semibold">
+                    <li class="hover:text-red-500"><a>Home</a></li>
+                    <li class="hover:text-red-500"><a>About</a></li>
+                    <li class="hover:text-red-500"><a>Pages</a></li>
+                    <li class="hover:text-red-500"><a>Blog</a></li>
+                    <li class="hover:text-red-500"><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass shadow mr-5 cursor-pointer"></i>
+                <a class="btn bg-red-500 border-none text-white hover:bg-red-600">Get Ticket</a>
+            </div>
+        </div>
+    </nav>
+</header>
+   
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
     
 </body>
